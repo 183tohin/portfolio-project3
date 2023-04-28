@@ -1,0 +1,614 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    box-shadow: 2px 2px 30px rgba(0,0,0, 0.2);
+    z-index: 1;
+}
+header div{
+    float: left;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    padding: 20px;
+    margin-left: 100px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(41,41,41);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+header .nav ul li a:hover{
+    color: #25c0e7;
+    transition: all ease 0.5s;
+}
+
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0,0,0, 0.9);
+    line-height: 80px;
+    margin-right: -170px;
+    float: right;
+}
+#check{
+    display: none;
+}
+
+/*section one start */
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.half1, .half2{
+    width: 50%;
+}
+.half img{
+    height: auto;
+    max-width: 100%;
+}
+.half1{
+    padding-left: 150px;
+    padding-bottom: 120px;
+}
+.half2{
+    padding-right: 160px;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 50px;
+}
+.half1 p{
+    color: rgb(78, 78, 78);
+    
+}
+.half1 input{
+    padding: 10px;
+    background: linear-gradient(80deg,#554be0,#469fe9);
+    outline: none;
+    border: 1px solid #469fe9;
+    color: #fff;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+    cursor: pointer;
+}
+/* section one end */
+
+/* section two start */
+.section2{
+    width: 100%;
+    height: 620px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0px auto;
+}
+.section2 img{
+    height: auto;
+    width: 95%;
+}
+.section2 .box1{
+    padding-left: 130px;
+}
+.section2 h3{
+    font-weight: normal;
+    color: rgba(0,0,0, 0.8);
+    font-size: 15px;
+}
+.section2 h1{
+    font-size: 2.1rem;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section2 p{
+    font-size: 16px;
+    width: 80%;
+    color: rgba(0,0,0, 0.6);
+    margin-top: 40px;
+}
+.section2 input{
+    padding: 10px 20px;
+    margin-top: 18px;
+    outline: none;
+    background: linear-gradient(120deg,#7a82f3,#75cdf0);
+    border: 1px solid #469fe9;
+    color: #fff;
+}
+.section2 input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+    cursor: pointer;
+}
+    /* section two end */
+
+    /*section three start */
+.section3{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section3 h1{
+    font-size: 40px;
+    color: rgba(0,0,0, .9);
+    line-height: 10px;
+}
+.section3 p{
+    width: 670px;
+    margin: 0 auto;
+    color: rgba(0,0,0, 0.6);
+}
+
+/* section three end */
+
+/* section four start */
+.section4{
+    width: 83%;
+    margin: 0 auto;
+    text-align: center;
+    height: 550px;
+}
+.sec1, .sec2{
+    width: 100%;
+    overflow: hidden;
+}
+.sec2{
+    padding-top: 30px;
+}
+.sec1 div, .sec2 div{
+    width: 32%;
+    float: left;
+    padding: 7px;
+    margin: 0 auto;
+}
+.section4 i{
+    font-size: 30px;
+    color: rgba(0,0,0, 0.6);
+}
+.section4 h1{
+    padding-top: 15px;
+    color: rgba(0,0,0, 0.9);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.section4 p{
+    color: rgba(0,0,0, 0.5);
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 23px;
+}
+.sec1 div:hover, .sec2 div:hover{
+    background-color: #7ff3f3;
+    box-shadow: 2px 2px 10px rgba(0,0,0, 0.6);
+    transition: all ease-in 0.5s;
+}
+.sec1 div:hover i{
+    color: rgb(51, 51, 48);
+}
+.sec1 div:hover h1{
+    color: white;
+}
+.sec1 div:hover p{
+    color: (#fff);
+}
+.sec2 div:hover i{
+    color: rgb(51, 51, 48);
+}
+.sec2 div:hover h1{
+    color: white;
+}
+.sec2 div:hover p{
+    color: (#fff);
+}
+
+/* section four end */
+
+/* section five start */
+.section5{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(120deg,#8191e9,#75cdf0);
+}
+.section5 div{
+    width: 20%;
+    margin: 0 auto;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 140px;
+}
+.section5 h1{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 5px;
+    line-height: 0px;
+}
+.section5 p{
+    color: #fff;
+}
+
+/* section five end */
+
+/* portfilio part start */
+.section6{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section6 .sec4{
+    text-align: center;
+    padding: 100px 0;
+}
+.section6, .sec4 h1{
+    font-size: 42px;
+    color: rgba(0,0,0, 0.9);
+}
+.section6, .sec4 p{
+    color: rgba(0,0,0, 0.5);
+    font-size: 17px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.section6 .imgg{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .imgg div{
+    width: 340px;
+    height: 339px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.section6 .imgg h1{
+    color: rgba(0,0,0, 0.9);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.section6 .imgg p{
+    color: rgba(0,0,0, 0.5);
+    margin: 0 auto;   
+}
+.section6 figure{
+    background: linear-gradient(60deg,#7a82f3 40%, #75cdf0 100%);
+    width: 340px;
+    height: 339px;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.section6 figure:hover img{
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+}
+
+/* portfilio part end */
+
+/* pricing part start */
+.section7{
+    width: 100%;
+    height: 700px;
+}
+.section7 .text5{
+    text-align: center;
+    padding: 3% 0;
+}
+.section7 .text5 h1{
+    font-size: 40px;
+    color: rgba(0,0,0, .9);
+    line-height: 0;
+}
+.section7 .text5 p{
+    color: rgba(0,0,0, 0.6);
+    font-size: 1.05rem;
+}
+.section7 .card{
+    width: 75%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section7 .card1{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0, 0.1);
+    background-color: rgb(249, 249, 255);
+}
+.section7 .card1 h1{
+    font-size: 50px;
+    padding: 8px;
+}
+.section7 .card1 .price{
+    font-size: 40px;
+}
+.section7 .card1 input{
+    padding: 6px 60px;
+    background-color: #3982e0;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.section7 .card1:hover{
+    background: linear-gradient(90deg,#25c0e7,#75cdf0);
+    color: white;
+    transition: all .4s ease-in;
+    border: 1px solid #25c0e7;
+    box-shadow: 0px 8px 12px 0 rgba( 130, 147, 255, 0.5);
+    transform: scale(1.07);
+}
+.section7 .card1:hover input{
+    color: rgba(0,0,0, .9);
+    background-color: #fff;
+}
+
+/* pricing part end */
+
+/* footer part start */
+
+footer{
+    background-color: rgb(4,9,30);
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    color: #FFF;
+    position: absolute;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .foot .foot1 input{
+    padding: 10px 200px 10px 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+    background-color: #7593e4;
+    cursor: pointer;
+}
+footer .foot .foot1 i{
+    font-size: 15px;
+    padding: 3px 8px;
+    cursor: pointer;
+}footer .foot .foot1 i:hover{
+    color: #25c0e7;
+    transition: all ease 0.4s;
+}
+span{
+    color: #3982e0;
+}
+/* footer part end */
+
+@media (max-width:768px){
+    header {
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block !important;
+    }
+    header .nav ul {
+        display: none;
+        width: 100%;
+        height: 100vh;
+        top: 54px;
+        left: -200%;
+        background: #f9f9ff;
+        transition: all 0.2s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ li{
+        left: 0;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px){
+    .section1{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .half1{
+        margin: auto;
+        padding: 0;
+    }
+    .half1 h3{
+        font-size: 15px;
+        top: 30px !important;
+    }
+    .half1 h1{
+        font-size: 30px;
+    }
+    .half2 img{
+        margin-left: 90px;
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+    .section2{
+        width: 100%;
+        height: 100vh;
+        top: 150px;
+        position: relative;
+        display: block;
+    }
+    .section2 .box1 img{
+        position: relative;
+        right: 120px;
+    }
+    .section2 div{
+        width: 100%;
+    }
+    .box2{
+        position: relative;
+        left: 15px;
+        text-align: center !important;
+    }
+    .box2 h3{
+        font-size: 12px;
+        color: rgba(0,0,0, .9);
+    }
+    .box2 h3{
+        font-size: 30px;
+        color: rgba(0,0,0, .9);
+    }
+    .box2 p{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.87);
+        margin-left: 50px !important;
+    }
+    .section3{
+        width: 100%;
+        margin-top: 350px;
+        height: auto;
+        position: relative;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    .section3 p{
+        width: 80%;
+    }
+    .sec1 div, .sec2 div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .section5{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 650px;
+    }
+    .section5 div{
+        clear: left;
+        left: 240px;
+    }
+    .section6{
+        position: relative;
+        top: 650px;
+        width: 100%;
+        height: auto;
+    }
+    .section7{
+        width: 100%;
+        position: relative;
+        height: auto;
+        top: 650px;
+    }
+    .section7 .text5 p{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section7 .text5 h1{
+        font-size: 35px;
+    }
+    .card1{
+        margin-top: 70px;
+    }
+    .section7 .card{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: block;
+        left: 170px;
+    }
+    footer{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 120em;
+    }
+    footer .foot{
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+    .foot1 .abp{
+        width: 50%;
+    }
+}
+
